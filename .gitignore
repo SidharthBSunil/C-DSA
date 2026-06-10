@@ -1,8 +1,18 @@
-# Ignore all files
-*
+# Ignore executables
+auto
+autsec
+har
+module1
+pointer
+pointers
+prime
+primefact
+sbuntant
+str
+tempCodeRunnerFile
 
-# But keep C source files
-!*.c
+# Ignore all object files
+*.o
 
-# Keep .gitignore itself
-!.gitignore
+# Ignore VS Code temp files
+tempCodeRunnerFile.c
