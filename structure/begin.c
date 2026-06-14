@@ -12,6 +12,6 @@ struct parent
 };
 int main()
 {
- struct parent p1 = {25, {195, 'A'}};
-printf("%d\t,%d\t,%c\t",p1.a,p1.b.x,p1.b.c);
+ struct parent p3 = {25, {195, 'A'}};
+printf("%d\t,%d\t,%c\t",p3.a,p3.b.x,p3.b.c);
 }
