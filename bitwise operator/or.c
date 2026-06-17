@@ -20,7 +20,7 @@ int main()
    printf("a and b is %u\n",a&b);
 
    /*
-   a xor 1 is opposite of a binary that is same bit angil 0 and opposite bit angil 1
+   a xor 1  that is same bit angil 0 and opposite bit angil 1
    
    a is 10 it change 10^11 =01 that is (1) [ 01 it is opposite of 10 (2)]
    */
