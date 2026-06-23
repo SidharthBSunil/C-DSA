@@ -5,7 +5,7 @@ int main()
 {
     int *ptr=(int *)malloc(sizeof(int)*5);
     int i=10;
-    ptr=1;
+    ptr=&i;
     if(ptr==NULL)
     {
         printf("memory allocation failed");
@@ -14,7 +14,7 @@ int main()
 
     //pr
 
-    printf("number is %d",(*ptr+1));
+    printf("number is %d",++(*ptr));
     //scanf()
 
 }
