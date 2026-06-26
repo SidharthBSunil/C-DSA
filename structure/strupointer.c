@@ -30,7 +30,6 @@ int  main(void)
     display(&s2);
 
     return 0;
-
 }
 
 struct student increment_age(struct student commonstru)
